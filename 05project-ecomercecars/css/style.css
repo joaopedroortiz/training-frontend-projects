@@ -1,0 +1,900 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+html, body{
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	height: 90px;
+	max-width: 1580px;
+	margin: auto;
+}
+
+.logo{
+	background-image: url('../imagens/logo.jpg');
+	height: 59px;
+	width: 150px;
+	background-size: cover;	
+	margin-top: 30px;
+	margin-left: 5%;
+}
+
+header ul{
+	float: right;
+	display: block;
+	position: relative;
+	list-style-type: none;
+	margin-top: -60px;
+	margin-right: 5%;
+
+}
+
+header li{
+	float: left;
+	color:black;
+	font-size: 25px;
+	padding: 20px;
+	font-weight: 600;
+	cursor: pointer;
+
+}
+
+.li1{
+	color:#cf2525;
+	text-decoration: none;
+}
+
+.li2{
+color: black;
+text-decoration: none;
+}
+
+.container1{
+
+background-color: black;
+height: 400px;
+width: 100%;
+background-image: url('../imagens/bg.jpg');
+background-size: contain;
+background-position: right bottom;
+background-repeat: no-repeat;
+padding-left: 10%;
+}
+
+.container1 p{
+	color: white;
+	cursor: pointer;
+	font-size: 25px;
+	padding: 10px;
+	letter-spacing:1px;
+	text-align: center;
+}
+
+.consultoria{
+	background-image: url('../imagens/box-text.png');
+	margin: 7px;
+	height: 40px;
+	width: 180px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.compra{
+	background-image: url('../imagens/box-text.png');
+	margin: 5px;
+	height: 40px;
+	width: 150px;
+	margin-left: -1px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.venda{
+	background-image: url('../imagens/box-text.png');
+	margin: 5px;
+	height: 38px;
+	width: 130px;
+	margin-left: -8px;
+	background-size: contain;
+	background-repeat: round;
+}
+
+.email p{
+	font-size: 20px;
+	color: black;
+}
+
+.email{
+	background-image: url('../imagens/btw.png');
+	opacity: 0.7;
+	margin: 5px;
+	height: 35px;
+	width: 280px;
+	margin-left: -16px;
+	background-size: cover;
+	background-repeat: round;
+	margin-top: 7px;
+
+}
+
+.container2{
+	height: 480px;
+}
+.intracont1{padding-top: 70px;}
+
+.container2 h2{
+	letter-spacing: 1px;
+	text-align: center;
+	max-width: 220px;
+
+}
+
+.l1{
+	text-align: center;
+	width: 100%;
+}
+
+.line{
+	max-width: 600px;
+	width: 70%;
+	height: 2px;
+	background-color: black;
+	margin: 80px auto;
+	text-align: center;
+}
+
+.boxh{
+	width: 225px;
+	height: 30px;
+	background-color: white;
+	position: relative;
+	margin:auto;
+	margin-top: -90px;
+	text-align: center;
+	}
+
+
+.galeria{
+	width: 75%;
+	max-width: 1080px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img-g1,.img-g2,.img-g3{
+
+	width: 31%;
+	margin: auto;
+	height: 300px;
+	padding-left: 10px;
+}
+
+.img1{
+	background-image: url('../imagens/carro1.jpg');
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.img2{
+	background-image: url('../imagens/opala.jpg');
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+}
+.img3{
+	background-image: url('../imagens/gol.jpg');
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: right;
+}
+
+
+.img-g1 p,.img-g2 p,.img-g3 p{
+
+	font-size: 18px;
+	padding-bottom: 15px;
+
+}
+
+
+.img-g1 h2,.img-g2 h2,.img-g3 h2{
+	font-size: 22px;
+	font-weight: 800;
+	padding: 10px 0;
+	text-align: left;
+	padding-top: 35px;
+}
+
+
+.vermais1,.vermais2,.vermais3,.saibamais{
+height: 30px;
+width: 100px;
+background-color: #cf2525;
+color: white;
+text-align: center;
+padding-top: 10px;
+font-size: 18px;
+cursor: pointer;
+
+}
+
+.container3{
+	width: 100%;
+	height: 330px;
+	display: flex;
+}
+
+.box1{
+	background-color: #404040;
+	color: white;
+	width: 50%;
+	padding: 50px;
+}
+
+.intrabox1{
+
+	width: 300px;
+	height: 230px;
+	float: right;
+	margin-right: 23%;
+	padding-top:20px;
+
+
+}
+
+.box2{
+	background-color: #cf2525;
+	color: white;
+	width: 50%;
+	padding: 50px;
+}
+
+
+.box1 li{
+	font-size: 18px;
+	padding-right: 20%;
+	margin-bottom: 8px;
+	letter-spacing: 1px;
+}
+
+.box1 ul{
+	
+	margin-top: 50px;
+}
+
+.box1 h2{
+	float: left;
+	padding-right: 10%;
+	letter-spacing: 3px;
+	font-size: 30px;
+	font-weight: 100;
+	margin-left:-15px; 
+}
+
+.saibamais{
+	position: relative;
+	bottom: 45px;
+	float: right;
+	margin-right: -30%;
+	padding: 12px;
+	height: 38px;
+	border: 1px solid rgba(209, 209, 209, 0.6)
+}
+ 
+ .intrabox2{
+
+	width: 370px;
+	height: 230px;
+	float: left;
+	margin-left: 10%;
+	padding-top:20px;
+
+ }
+
+.box2 h2{
+	float: left;
+	padding-right: 10%;
+	letter-spacing: 3px;
+	font-size: 30px;
+	font-weight: 100;
+	margin-left:-15px; 
+	padding-bottom: 20px;
+}
+
+.box2texto{
+	width: 100%;
+	height: auto;
+	display: flex;
+	margin-left: -15px;
+
+
+}
+.box2 p{
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: 100;
+	font-style: italic;
+	padding-bottom: 20px;
+
+}
+
+.box2 h3{
+	float: right;
+	font-weight: 100;
+	color: black;
+	font-style: italic;
+
+}
+
+.boxseta{
+	width: 120px;
+	height: 30px;
+	display: flex;
+	position: absolute;
+	margin-left: -18px;
+	}	
+
+.seta1{
+	background-image: url('../imagens/e.png');
+	width: 16px;
+	height: 33px;
+	background-size: cover;
+	margin-right: 55px;
+	cursor: pointer;
+}
+
+.seta2{
+	background-image: url('../imagens/d.png');
+	width: 16px;
+	height: 33px;
+	background-size: cover;
+	cursor: pointer;
+}
+
+
+footer, .footerv{
+	width:100%;
+	height: 50px;
+	background-color:#1a1a1a; 
+	text-align: center;
+	font-size: 17px;
+	color: white;
+	margin: auto;
+}
+
+.footerv{   
+	bottom: -540px;
+	position: absolute;
+}
+
+footer p, .footerv{
+	padding-top:20px;
+	font-weight: 100;
+	}
+
+.footerv p{
+	padding-top: 0;
+}
+
+.pagevenda{
+	width: 90%;
+	height: 100%;
+	margin-top: -30px;
+	margin-inline:auto;
+	max-width: 1500px;
+	
+}
+
+.redline{
+	width: 100%;
+	height: 2px;
+	background-color: #cf2525;;
+	margin-top: -10px;
+}
+
+
+.boxhvenda{
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	margin:auto;
+	margin-top: -90px;
+	text-align: center;
+	}
+
+.boxhvenda h2{
+	letter-spacing: 2px;
+}
+
+.container-venda{
+	height: 100%;
+	margin-top: 30px;
+
+}
+
+.sidebar-venda{
+	width:280px;
+	height: 900px;
+	float: left;
+}
+
+.box-carros{
+	width:calc(100% - 280px);
+	float: right;
+	height: 100%;
+}
+
+.galeria-venda{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+.bloco1venda{
+	width: 32%;
+	height: 400px;
+}
+
+
+.sidebar-venda h2{
+float: left;
+letter-spacing:1px;
+font-size: 28px;
+padding: 20px;
+padding-left: 29px;
+}
+
+.barra-preço{
+	width: 80%;
+	height: 13px;
+	background-color: white;
+	border:1px solid #d1d1d1;
+	border-radius:5px;
+	margin: auto;
+	display: flex;
+}
+
+.marc-barra{
+	left: 0;
+	width: 25%;
+	height: 11px;
+	background:linear-gradient(to bottom, rgb(225,225,225), rgb(200,200,200));;
+	border-radius: 5px;
+}
+
+.pointerbarra{
+	background-color: #9c9c9c;
+	height: 15px;
+	width: 15px;
+	float: right;
+	margin-top: -2px;
+	border-radius: 5px;
+	border:1px solid #6d6d6d;
+	cursor: pointer;
+}
+
+.valores{
+	width: 100%;
+	height: 40px;
+	margin: auto;	
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.valores p{
+	width: 50%;
+	height: 100%;
+	padding-left: 30px;
+    padding-top: 9px;
+	font-size: 18px;
+}
+
+.filtros{
+
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+	padding-top: 60px;
+	padding-left: 25px;
+}
+
+.check{
+	width: 100%;
+	padding-top: 20px;
+	font-size: 19px;
+	letter-spacing: 1px;
+
+}
+
+.check input{
+	margin-right: 8px;
+}
+
+
+.img{
+
+	width: 95%;
+	margin: auto;
+	height: 300px;
+	padding-left: 10px;
+	font-size: 18px;
+	margin-bottom: 75px;
+}
+
+
+.img h2{
+	font-size: 22px;
+	font-weight: 800;
+	padding: 10px 0;
+	text-align: left;
+	padding-top: 35px;
+}
+
+
+#foot-cont{
+	margin-bottom: 400px;
+}
+
+
+.formulario{
+display: flex;
+width: 100%;
+height: 450px;
+margin-top: 20px;
+}
+
+.formbox{
+	margin: auto;
+	width: 90%;
+	background-color: white;
+	max-width: 500px;
+	height: 330px;
+	margin-top: 15px;
+}
+
+#nome{
+	width: 100%;
+	height: 40px;
+	font-size: 19px;
+	border-color: #bbbbbb;;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+
+#email,#telefone{
+	width: 48%;
+	height: 40px;
+	font-size: 19px;
+	border-color: #bbbbbb;;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	margin
+}
+#email{
+	margin-right: 3%;
+}
+
+#mensagem{
+	width: 100%;
+	height: 120px;
+	font-size: 19px;
+	border-color: #bbbbbb;;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	top:0;
+}
+
+::placeholder{padding-top: 3px;
+
+}
+
+.enviarbox{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+input[type="submit"]{
+	width: 80px;
+	height: 35px;
+	padding-top: 3px;
+	font-size: 18px;
+	background-color:#cf2525;
+	letter-spacing: 2px;
+	margin: auto;
+	color: white;
+	border-radius: 5px;
+	border:1px solid grey;
+	cursor: pointer;	
+
+}
+
+.veicdest{
+	margin-top: -150px;
+}
+
+.blococontato{
+	display: flex;
+	padding-top: 50px;
+	margin: auto;
+	width: 95%;
+	max-width: 1350px;
+	max-height: 425px;
+}
+
+#idline{
+	max-width: 900px;
+}
+
+.container-sobre{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 70px;
+}
+.section1{
+	background-image: url('../imagens/oficina.jpg');
+	width: 100%;
+	padding-top: 60%;
+	background-size: cover;
+
+}
+
+
+.section2{
+	margin-top: 70px;
+}
+
+.section2 h2{
+	margin-bottom: 70px;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+.section2 p{
+	font-size: 23px;
+	letter-spacing: 1px;
+	white-space: 30px;
+	margin: auto;
+	text-align: justify;
+
+}
+
+.section3{
+	padding-top: 70px;
+	display: flex;
+
+}
+.fotosobre{
+	background-image: url('../imagens/adm.jpg');
+	width: 30%;
+	padding-top: 20%;
+	background-size:cover;
+	min-width: 190px;
+	max-height: 160px;
+}
+
+.section3 p{
+	width: 68%;
+	font-size: 23px;
+	letter-spacing: 1px;
+	white-space: 25px;
+	margin: auto;
+	padding-left: 40px;
+	text-align: justify;
+}
+
+#foot-sobre{
+	position: relative;
+	bottom: -20px;
+	margin-top: 15px;
+	}
+
+
+
+@media screen and (max-width: 1900px){
+.footerv{   
+	bottom: -700px;
+	position: absolute;
+
+}
+
+#foot-cont{
+	bottom: -740px;
+    position: absolute;
+}
+}
+
+@media screen and (max-width: 1024px){
+
+.galeria{
+	width: 85%;
+}
+
+.container3{
+	display: grid;
+}
+
+.box1{
+	width: 100%;}
+
+
+.box2{width: 100%;
+}
+
+.intrabox1{
+	max-width: 370px;
+	width: 100%;
+	float: none;
+	margin: auto;
+	padding-top: 1px;
+}
+
+.intrabox2{
+	max-width: 370px;
+	width: 100%;
+	float: none;
+	margin: auto;
+	padding-top: 1px;
+}
+
+.saibamais{
+	bottom: -14px;
+	float: none;
+	margin:auto;}
+ 
+.boxseta{
+	width: 120px;
+	height: 30px;
+	display: flex;
+	position: relative;
+	margin: 45px auto;
+	}	
+
+
+.container1 {
+	padding-left: 4%;}
+
+footer{
+	position: absolute;
+	margin-top:330px; }
+
+}
+
+
+@media screen and (max-width: 770px){
+
+ .footerv {
+bottom: -3450px;
+  }
+
+.intracont1{padding-top: 20px;}
+
+header ul{display: inline-grid;
+	background-color: white;
+	opacity: 0.9;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+header li:hover{
+	background-color: grey;
+}
+
+.mobile{
+	background-image: url('../imagens/menu.png');
+	height: 40px;
+    width: 40px;
+    top: 38px;
+    position: absolute;
+    background-size: cover;
+    right: 34px;
+    top: 41px;
+    cursor: pointer;
+
+}
+
+.galeria{
+	display: block;
+	}
+
+.img-g1,.img-g2,.img-g3{
+
+width: 100%;
+max-width: 500px;
+margin-bottom: 100px;
+}
+
+.img1,.img2,.img3{
+
+height: 230px;}
+
+.img-g1 h2,.img-g2 h2,.img-g3 h2{
+	padding-top: 15px;
+}
+
+.container3{
+margin-top: 781px;
+}
+
+.container-venda{
+	display: inline-grid;
+	text-align: center;
+	width: 90%;
+	margin-left: 30px;
+	height: 510px;
+}
+
+.galeria-venda{
+	display: block;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.sidebar-venda{
+	margin: auto;
+	height: 510px;
+}
+
+.sidebar-venda h2{
+	margin: auto;
+	float: none;
+}
+
+.filtros{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.bloco1venda{
+width: 100%;
+height: 1140px;
+}
+
+#foot-cont{
+	bottom: -780px;}
+
+#check1{
+	margin-left: 40px;
+}
+
+
+.box-carros {
+    width: 90%;
+    margin: auto;}
+
+.section3{
+	display: block;
+	margin: auto;
+}
+
+.section3 p{
+	padding-left: 0px;
+	padding-top: 40px;
+}
+.fotosobre{
+	width: 90%;
+	padding-top: 60%;
+	background-size:cover;
+	min-width: none;
+	max-height: none;
+	margin: auto;
+}
+
+}

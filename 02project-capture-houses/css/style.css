@@ -1,0 +1,274 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Noto Sans HK', sans-serif;
+}
+
+html,body{
+
+	height: 100%;
+}
+
+.container1{
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	background-color: #d6d6d6;
+	padding:  10px 50px;
+	height: 80px;
+
+}
+
+.logo1{
+	float: left;
+	width: 150px;
+	height: 60px;
+	background-image: url('../imagens/logo1.png');
+	background-size:100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 5%;
+
+}
+
+.logo2{
+	float: right;
+	width: 160px;
+	height: 60px;
+	background-image: url('../imagens/logo2.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-right: 6%}
+
+
+section.cover-form{
+		padding: 0 5%;
+}
+
+.container{
+	background-image: url('../imagens/imagem.jpg');
+	background-size: cover;
+	height: 570px;
+	background-position: center;
+}
+
+
+.formbox{
+
+	float: right;
+	position: relative;
+	width: 300px;
+	height: 86%;
+	background-color:rgba(255, 255, 255, 0.5);
+	font-family:arial;
+	
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 30px;
+	margin: 22px; 
+	z-index: 2;
+
+	
+
+}
+
+.formbox h2{
+
+	font-size: 20px;
+	margin: 5px;
+
+}
+
+.formbox input{
+	width: 100%;
+	height: 35px;
+	margin: 5px;
+	border: 1px solid rgb(113, 106, 106);
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.formbox p{
+	margin-top: 25px;
+	margin-left: 5px;
+	font-size: 20px; 
+	
+}
+
+
+
+.formbox input[type=submit]{
+
+background-color:rgb(168, 11, 11);
+opacity: 1;
+text-transform: uppercase;
+color: white;
+width: 100%;
+font-size: 25px;
+height: 60px;
+margin-top: 40px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+
+section.bloco2{
+	z-index: 1;
+	background-color:#26526d;
+	width: 90%;	
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-left: 5%;
+	bottom:75px;
+	padding: 40px;
+
+}
+
+section.bloco2 h2{
+
+	width: 96%;
+	max-width: 700px;
+	display: inline-block;
+	color: white;
+	font-size: 24px;
+	font-weight: normal;
+
+
+}
+
+
+.flex{
+	display: flex;
+	margin-top:-75px;
+	padding: 0 5%;
+}
+
+.flex1{
+	display: flex;
+	padding: 0 5%;
+	}
+
+.flex2{
+	display: flex;
+	padding: 0 5%;
+}
+
+.mosaico01{
+	background-position: center;
+	background-size:cover;
+	width: 60%;
+	min-height: 400px;
+
+}
+
+.mosaico02{
+	width: 40%;
+	background-color: rgb(218, 221, 227);
+	padding: 100px;
+	font-size: 19px;
+	text-align: justify;
+
+}
+
+
+	footer{
+		color: grey;
+		font-size: 15px;
+		text-align: center;
+		padding: 20px;
+	}
+
+ 	footer img{
+
+ 		width: 140px;
+ 	}
+
+
+
+
+
+@media screen and (max-width: 1500px){
+
+.mosaico02{
+	font-size: 19px;
+	padding: 50px;
+}
+
+
+@media screen and (max-width: 800px){
+
+	.flex,.flex1,.flex2{
+
+		display:block;
+	}
+
+	.mosaico01{
+		 width: 100%;
+		 height: 400px;
+
+
+	}
+
+	.mosaico02{
+
+		width: 100%;
+		}
+
+}
+
+
+@media screen and (max-width: 700px){
+
+			header{
+			text-align: center;
+			height: 160px;
+			position: static;
+		}
+
+		.logo1{
+			float: none;
+			background-position: center;
+			display: inline-block;
+			text-align: center;
+			position: static;
+		}
+
+		.logo2{
+			float:none;			
+			display: inline-block;
+			background-position: center;
+			position: static;
+
+		}
+	
+
+		.formbox{
+
+			width: auto;
+			max-width: 400px;
+			margin-left: 20%;
+    		margin-right: 20%;
+    		}
+
+
+		.mosaico02{
+
+		width: 100%;
+		height: 380px;
+		font-size: 19px;
+		padding: 50px;
+	}
+
