@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  cursor: pointer;
+}
+
+header {
+  background-color: #030303;
+  color: #e6bc7e;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+.container-header,
+.container-banner {
+  padding-top: 20px;
+  max-width: 1000px;
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+}
+#logo {
+  margin-top: -10px;
+  width: 68px;
+  height: 68px;
+}
+.container-header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.container-header ul li {
+  margin: 11px;
+}
+
+.banner {
+  background-color: #030303;
+  height: 312px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-banner h1 {
+  color: #e6bc7e;
+  font-size: 46px;
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.container-banner p {
+  color: #e6bc7e;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  min-width: 300px;
+}
+.hamburguer {
+  display: none;
+}
+
+#dogbackground {
+  background-image: url("./imgs/background.png");
+  max-width: 550px;
+  max-height: 312px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.text-container {
+  min-width: 300px;
+  padding-left: 40px;
+}
+
+main {
+  background-color: #e6bc7e;
+  display: flex;
+  justify-content: center;
+}
+
+.container-main {
+  max-width: 1100px;
+  padding: 50px 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+main img {
+  margin: 20px;
+  padding: 15px;
+}
+
+section {
+  background-color: #403423;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 36px 0;
+}
+
+.card-form {
+  max-width: 330px;
+  width: 90%;
+  height: 424px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  display: inline;
+}
+
+.card-form {
+  padding-top: 20px;
+}
+
+.card-form label {
+  float: left;
+  color: #403423;
+  font-weight: bolder;
+  padding-bottom: 5px;
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.card-form input {
+  width: 100%;
+  height: 30px;
+  color: #403423;
+  border-radius: 10px;
+  font-weight: 700;
+  border: 1px solid;
+  padding-left: 5px;
+}
+
+#warning {
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  margin: -5px 8px 5px 0px;
+  height: 15px;
+  color: #e6bc7e;
+}
+
+.warning-inputs {
+  font-size: 10px;
+  height: 10px;
+  margin: 1px 0 5px 0px;
+  color: rgb(199, 31, 31);
+  text-align: center;
+}
+
+.card-form input:focus {
+  border: 1px solid #bf9d69;
+}
+
+#message {
+  max-width: 280px;
+  width: 100%;
+  height: 80px;
+  resize: none;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 5px;
+  margin-bottom: -4px;
+}
+
+#message:focus {
+  border: 1px solid #bf9d69;
+}
+
+#button {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  height: 35px;
+  background-color: #bf9d69;
+  color: white;
+  font-weight: bolder;
+  border: 0px;
+}
+
+#button:hover {
+  background-color: #403423;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #e6bc7e;
+}
+
+footer p {
+  font-weight: bolder;
+  font-size: 12px;
+  padding: 33px;
+  text-align: center;
+}
+
+.banner-hamburguer {
+  display: none;
+}
+
+.close-nav {
+  display: none;
+}
+@media screen and (max-width: 770px) {
+  .container-main {
+    flex-direction: column-reverse;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  .hamburguer {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburguer img {
+    padding: 3px;
+    width: 39px;
+  }
+
+  .container-banner {
+    padding-top: 0;
+  }
+
+  .text-container h1,
+  p {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .text-container p {
+    font-size: 18px;
+  }
+
+  .text-container h1 {
+    font-size: 36px;
+    padding-top: 50px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  #dogbackground {
+    display: none;
+  }
+  .banner {
+    height: 250px;
+    padding-bottom: 120px;
+  }
+  #logo {
+    width: 53px;
+    height: 53px;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .banner-hamburguer {
+    display: flex;
+    display: none;
+    height: 410px;
+    background-color: #030303;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .banner-hamburguer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 90px;
+  }
+
+  .banner-hamburguer ul li {
+    color: #ffd18d;
+    font-size: 36px;
+    font-weight: 700;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  .hamburguer {
+    /* float: right; */
+  }
+
+  .close-nav {
+    display: inline-block;
+    margin: 32px;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+
+  .close {
+    position: absolute;
+    display: none;
+  }
+  #warning {
+    margin: -9px 7px 15px 0px;
+  }
+
+  #close-icon {
+    transform: rotate(90deg);
+  }
+
+  .text-container h1,
+  p {
+    padding-top: 0;
+  }
+}
